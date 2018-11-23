@@ -1,0 +1,25 @@
+<div class="{{base.pageContainerClass}} allColumnFullscreen common_centerColumnVertically">
+    <pb-menu></pb-menu>
+
+	<div class="bgImage" style="background-image : url( {{page.MainImage.FilePath}} )"  ng-if="!base.isVideo(page.MainImage.FileName)"
+		  data-height="{{page.MainImage.Height}}"
+		  data-width="{{page.MainImage.Width}}"></div>
+
+		<pb-video-player ng-if="base.isVideo(page.MainImage.FileName)" full="true" source="{{page.MainImage.FilePath}}"></pb-video-player>
+
+	<main class="columnWrapper">
+		<div class="theColumn">
+			<h1 ng-if="page.LinkHeaders[0].Title"
+				 pb-style="{'color': page.LinkHeaders[0].FontColor, 'font-size': page.LinkHeaders[0].FontSize, 'font-family': page.LinkHeaders[0].FontFamily, 'text-transform': (page.LinkHeaders[0].IsUppercase == 1) ? 'uppercase' : 'none'}"
+				 ng-bind-html="page.LinkHeaders[0].Title">
+			</h1>
+
+			<div bind-unsafe-html="page.BlockContent" block-content></div>
+		</div>
+
+
+	</main>
+
+
+    <pb-social-media></pb-social-media>
+</div>

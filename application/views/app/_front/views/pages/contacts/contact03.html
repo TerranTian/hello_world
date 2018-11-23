@@ -1,0 +1,21 @@
+<div class="{{base.pageContainerClass}}">
+    <pb-menu></pb-menu>
+    <main class="clearfix">
+
+        <div class="textPageContainer">
+            <div class="content">
+                <div bind-unsafe-html="page.BlockContent" block-content class="textContent"></div>
+
+                <pb-form formstyle="2"></pb-form>
+            </div>
+
+            <img ng-if="!base.isVideo(page.MainImage.FileName)  && page.MainImage.FilePath" class="mainImage" ng-src="{{page.MainImage.FilePath}}" alt="" data-height="{{page.MainImage.Height}}" data-width="{{page.MainImage.Width}}"  pb-nice-load />
+
+	        <pb-video-player ng-if="base.isVideo(page.MainImage.FileName)" full="false" contain="true" source="{{page.MainImage.FilePath}}"></pb-video-player>
+
+	        <pb-footer></pb-footer>
+        </div>
+
+    </main>
+    <pb-social-media></pb-social-media>
+</div>

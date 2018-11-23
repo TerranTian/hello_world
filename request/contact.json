@@ -1,0 +1,95 @@
+{
+    "AddedToClubId": null,
+    "AddedToExpo": 0,
+    "BgImage": null,
+    "BgImageHeight": 0,
+    "BgImagePosition": 0,
+    "BgImageS3LocationId": 0,
+    "BgImageWidth": 0,
+    "BlockContent": "<div class=\"row\" id=\"KXQEBDSBW\"><div class=\"column\" id=\"OFTRCWBXZ\"><div class=\"block\" id=\"TYXMKMNAG\"><div class=\"text tt2\"><h1>Contact me</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris fermentum dictum congue. Vivamus sed porta risus, ut laoreet leo. Aliquam aliquam id diam at tincidunt. Ut adipiscing, mauris et bibendum consequat, nisl nulla vulputate turpis, ut hendrerit elit eros vel leo. Ut eu venenatis lectus. Mauris libero sem, sodales in sollicitudin at, iaculis eget turpis. Donec sodales lacus dolor, a dignissim dolor cursus et. Donec at vulputate massa, non consequat libero. Maecenas vehicula orci sit amet est facilisis eleifend. Ut bibendum et est a aliquet. Integer egestas egestas leo a luctus.</p></div><span class=\"movehandle\"></span><span class=\"confhandle\"></span></div></div></div>",
+    "CreatedAt": "2018-11-22 04:43:56",
+    "CustomForm": [
+        {
+            "Guid": "11823842k1dxXLJ",
+            "isRequired": true,
+            "label": "Name",
+            "type": "input-text"
+        },
+        {
+            "Guid": "11823847EsMU5nl",
+            "isRequired": true,
+            "label": "Email",
+            "type": "email"
+        },
+        {
+            "Guid": "1182384DAOSPJVx",
+            "isRequired": true,
+            "label": "Message",
+            "type": "textarea"
+        }
+    ],
+    "DescriptionPosition": 0,
+    "DsnTemplateCustomCss": "",
+    "DsnTemplateCustomHtml": "",
+    "DsnTemplateCustomJs": "",
+    "DsnTemplateCustomTitle": null,
+    "DsnTemplateHasPicview": null,
+    "DsnTemplateIsCustom": null,
+    "DsnTemplatePartDirective": null,
+    "DsnTemplateProperties": [
+        {
+            "position": "contentPanel",
+            "type": "main-text-prop"
+        },
+        {
+            "position": "contentPanel",
+            "settings": {
+                "showBgMode": 0,
+                "showLink": 0
+            },
+            "type": "main-image-prop"
+        },
+        {
+            "position": "contentPanel",
+            "type": "form-builder-prop"
+        }
+    ],
+    "DsnTemplateSubGroup": "contacts",
+    "DsnTemplateType": "contacts",
+    "DsnTemplateViewFile": "contact03",
+    "DznTemplateGuid": "122",
+    "FontCss": "",
+    "Guid": "1182384K82yZHlO",
+    "IsFavorite": 0,
+    "IsPasswordProtected": 0,
+    "IsStartPage": 0,
+    "IsUnPublished": 0,
+    "ListImageMargin": null,
+    "ListImageSize": 0,
+    "MainImage": {
+        "BgMode": "1",
+        "FileName": "{\"dummy\":1,\"fileName\":\"0.jpg\",\"folder\":\"contacts_v02\"}",
+        "FilePath": "https://d28avw9ny3vgf2.cloudfront.net/application/_img/dummy/contacts_v02/0.jpg",
+        "Guid": "11823847PyMAqxK",
+        "Height": "1072",
+        "LinkSectionGuid": null,
+        "LinkToPageGuid": null,
+        "OnepagerSectionGuid": null,
+        "PageGuid": "1182384K82yZHlO",
+        "PageMainImageThumb": "1",
+        "S3LocationId": null,
+        "SectionMainImageThumb": null,
+        "Url": null,
+        "Width": "1920"
+    },
+    "Map": {
+        "Address": "Gamlastan",
+        "Latitude": "59.3256984",
+        "Longitue": "18.071878800000036"
+    },
+    "PageBGThumb": null,
+    "PageNotFound": false,
+    "PageTitle": "CONTACT",
+    "SeoDescription": "",
+    "Uri": "contact"
+}

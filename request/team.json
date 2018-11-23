@@ -1,0 +1,255 @@
+{
+    "AddedToClubId": null,
+    "AddedToExpo": 0,
+    "BgImage": null,
+    "BgImageHeight": 0,
+    "BgImagePosition": 0,
+    "BgImageS3LocationId": 0,
+    "BgImageWidth": 0,
+    "BlockContent": "<span id=\"VERIFY_1182384N8d3zAAQ_HASH\" class=\"DO_NOT_REMOVE_OR_COPY_AND_KEEP_IT_TOP ng-scope\" style=\"display:none;width:0;height:0;position:fixed;top:-10px;z-index:-10\"></span>\n<div class=\"row ng-scope\" id=\"KXQEBDSBW\"><div class=\"column\" id=\"OFTRCWBXZ\"><div class=\"block\" id=\"TYXMKMNAG\"><div class=\"text tt2\" contenteditable=\"false\" style=\"position: relative;\"><h1 style=\"text-align:center\">&nbsp;</h1>\n\n<p style=\"text-align:center\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris fermentum dictum congue. Vivamus sed porta risus.</p>\n</div><span class=\"movehandle\"></span><span class=\"confhandle\"></span></div></div></div>",
+    "CreatedAt": "2018-11-22 04:45:18",
+    "DescriptionPosition": 1,
+    "DsnTemplateCustomCss": "",
+    "DsnTemplateCustomHtml": "",
+    "DsnTemplateCustomJs": "",
+    "DsnTemplateCustomTitle": null,
+    "DsnTemplateHasPicview": null,
+    "DsnTemplateIsCustom": null,
+    "DsnTemplatePartDirective": null,
+    "DsnTemplateProperties": [
+        {
+            "position": "contentPanel",
+            "type": "main-text-prop"
+        },
+        {
+            "position": "contentPanel",
+            "settings": {
+                "button": 0,
+                "description": 0,
+                "enableImage": 1,
+                "link": 1,
+                "pricing": 0,
+                "subheader": 1
+            },
+            "type": "list-item-prop"
+        },
+        {
+            "position": "displaySettings",
+            "settings": {
+                "enablePreStyle": 0
+            },
+            "type": "main-text-position-prop"
+        },
+        {
+            "position": "displaySettings",
+            "type": "image-size-prop"
+        },
+        {
+            "position": "displaySettings",
+            "type": "image-margin-prop"
+        }
+    ],
+    "DsnTemplateSubGroup": "team",
+    "DsnTemplateType": "team",
+    "DsnTemplateViewFile": "circles",
+    "DznTemplateGuid": "650",
+    "FontCss": "",
+    "Guid": "1182384N8d3zAAQ",
+    "IsFavorite": 0,
+    "IsPasswordProtected": 0,
+    "IsStartPage": 0,
+    "IsUnPublished": 0,
+    "ListImageMargin": "60px",
+    "ListImageSize": 2,
+    "ListItems": [
+        {
+            "Button": "",
+            "ButtonLink": null,
+            "Description": "",
+            "Guid": "1182384YJVWqsKV",
+            "Header": "Gabriel Magnusson",
+            "Idx": 0,
+            "LinkedPageGuid": null,
+            "LinkedSectionGuid": null,
+            "ListThumb": {
+                "FileName": "{\"dummy\":1,\"fileName\":\"team00.jpg\",\"folder\":\"team_v03\"}",
+                "Height": "1279",
+                "S3LocationId": null,
+                "Width": "1919"
+            },
+            "OnepagerSectionGuid": null,
+            "PageGuid": "1182384N8d3zAAQ",
+            "Pricing": "",
+            "SiteId": 1182384,
+            "Subheader": "Founder",
+            "Target": "_blank",
+            "Url": "https://www.linkedin.com"
+        },
+        {
+            "Button": "",
+            "ButtonLink": null,
+            "Description": "",
+            "Guid": "1182384VwmuxHZK",
+            "Header": "Daniela Jansen",
+            "Idx": 1,
+            "LinkedPageGuid": null,
+            "LinkedSectionGuid": null,
+            "ListThumb": {
+                "FileName": "{\"dummy\":1,\"fileName\":\"team01.jpg\",\"folder\":\"team_v03\"}",
+                "Height": "1279",
+                "S3LocationId": null,
+                "Width": "1919"
+            },
+            "OnepagerSectionGuid": null,
+            "PageGuid": "1182384N8d3zAAQ",
+            "Pricing": "",
+            "SiteId": 1182384,
+            "Subheader": "Key Accountant",
+            "Target": "_blank",
+            "Url": "https://www.linkedin.com"
+        },
+        {
+            "Button": "",
+            "ButtonLink": null,
+            "Description": "",
+            "Guid": "1182384NkPMIEup",
+            "Header": "Pernilla Berg",
+            "Idx": 2,
+            "LinkedPageGuid": null,
+            "LinkedSectionGuid": null,
+            "ListThumb": {
+                "FileName": "{\"dummy\":1,\"fileName\":\"team02.jpg\",\"folder\":\"team_v03\"}",
+                "Height": "1279",
+                "S3LocationId": null,
+                "Width": "1919"
+            },
+            "OnepagerSectionGuid": null,
+            "PageGuid": "1182384N8d3zAAQ",
+            "Pricing": "",
+            "SiteId": 1182384,
+            "Subheader": "Project Manager",
+            "Target": "_blank",
+            "Url": "https://www.linkedin.com"
+        },
+        {
+            "Button": "",
+            "ButtonLink": null,
+            "Description": "",
+            "Guid": "1182384NSNkJOJk",
+            "Header": "Rebecca Vinter",
+            "Idx": 3,
+            "LinkedPageGuid": null,
+            "LinkedSectionGuid": null,
+            "ListThumb": {
+                "FileName": "{\"dummy\":1,\"fileName\":\"team03.jpg\",\"folder\":\"team_v03\"}",
+                "Height": "1279",
+                "S3LocationId": null,
+                "Width": "1919"
+            },
+            "OnepagerSectionGuid": null,
+            "PageGuid": "1182384N8d3zAAQ",
+            "Pricing": "",
+            "SiteId": 1182384,
+            "Subheader": "Illustrator",
+            "Target": "_blank",
+            "Url": "https://www.linkedin.com"
+        },
+        {
+            "Button": "",
+            "ButtonLink": null,
+            "Description": "",
+            "Guid": "1182384wl4WjrOd",
+            "Header": "Susanna Lundgren",
+            "Idx": 4,
+            "LinkedPageGuid": null,
+            "LinkedSectionGuid": null,
+            "ListThumb": {
+                "FileName": "{\"dummy\":1,\"fileName\":\"team04.jpg\",\"folder\":\"team_v03\"}",
+                "Height": "1279",
+                "S3LocationId": null,
+                "Width": "1919"
+            },
+            "OnepagerSectionGuid": null,
+            "PageGuid": "1182384N8d3zAAQ",
+            "Pricing": "",
+            "SiteId": 1182384,
+            "Subheader": "Photographer",
+            "Target": "_blank",
+            "Url": "https://www.linkedin.com"
+        },
+        {
+            "Button": "",
+            "ButtonLink": null,
+            "Description": "",
+            "Guid": "1182384uNIo2DiB",
+            "Header": "Hannes Helge",
+            "Idx": 5,
+            "LinkedPageGuid": null,
+            "LinkedSectionGuid": null,
+            "ListThumb": {
+                "FileName": "{\"dummy\":1,\"fileName\":\"team05.jpg\",\"folder\":\"team_v03\"}",
+                "Height": "1279",
+                "S3LocationId": null,
+                "Width": "1919"
+            },
+            "OnepagerSectionGuid": null,
+            "PageGuid": "1182384N8d3zAAQ",
+            "Pricing": "",
+            "SiteId": 1182384,
+            "Subheader": "Designer",
+            "Target": "_blank",
+            "Url": "https://www.linkedin.com"
+        },
+        {
+            "Button": "",
+            "ButtonLink": null,
+            "Description": "",
+            "Guid": "11823845XA3asOp",
+            "Header": "Maja Karlsson",
+            "Idx": 6,
+            "LinkedPageGuid": null,
+            "LinkedSectionGuid": null,
+            "ListThumb": {
+                "FileName": "{\"dummy\":1,\"fileName\":\"team06.jpg\",\"folder\":\"team_v03\"}",
+                "Height": "1279",
+                "S3LocationId": null,
+                "Width": "1919"
+            },
+            "OnepagerSectionGuid": null,
+            "PageGuid": "1182384N8d3zAAQ",
+            "Pricing": "",
+            "SiteId": 1182384,
+            "Subheader": "Art Director",
+            "Target": "_blank",
+            "Url": "https://www.linkedin.com"
+        },
+        {
+            "Button": "",
+            "ButtonLink": null,
+            "Description": "",
+            "Guid": "1182384bOxILV2D",
+            "Header": "Peter Strand",
+            "Idx": 7,
+            "LinkedPageGuid": null,
+            "LinkedSectionGuid": null,
+            "ListThumb": {
+                "FileName": "{\"dummy\":1,\"fileName\":\"team07.jpg\",\"folder\":\"team_v03\"}",
+                "Height": "1279",
+                "S3LocationId": null,
+                "Width": "1919"
+            },
+            "OnepagerSectionGuid": null,
+            "PageGuid": "1182384N8d3zAAQ",
+            "Pricing": "",
+            "SiteId": 1182384,
+            "Subheader": "Sales Director",
+            "Target": "_blank",
+            "Url": "https://www.linkedin.com"
+        }
+    ],
+    "PageBGThumb": null,
+    "PageNotFound": false,
+    "PageTitle": "ANOUT US",
+    "SeoDescription": "",
+    "Uri": "team"
+}

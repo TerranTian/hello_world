@@ -1,0 +1,204 @@
+{
+    "AddedToClubId": null,
+    "AddedToExpo": 0,
+    "BgImage": null,
+    "BgImageHeight": 0,
+    "BgImagePosition": 0,
+    "BgImageS3LocationId": 0,
+    "BgImageWidth": 0,
+    "BlockContent": "",
+    "CreatedAt": "2018-11-22 05:01:23",
+    "DescriptionPosition": 1,
+    "DoShowGalleryItemListText": 1,
+    "DsnPicViewIsLinkable": "0",
+    "DsnPicviewSettings": {
+        "ShowEffect": 1,
+        "ShowPauseTiming": 1,
+        "ShowTextPosition": 1,
+        "ShowTiming": 1
+    },
+    "DsnPicviewViewFile": "lightbox",
+    "DsnTemplateCustomCss": "",
+    "DsnTemplateCustomHtml": "",
+    "DsnTemplateCustomJs": "",
+    "DsnTemplateCustomTitle": null,
+    "DsnTemplateHasPicview": "1",
+    "DsnTemplateIsCustom": null,
+    "DsnTemplatePartDirective": "part-gallery-thumb",
+    "DsnTemplateProperties": [
+        {
+            "position": "contentPanel",
+            "type": "main-text-prop"
+        },
+        {
+            "position": "displaySettings",
+            "settings": {
+                "enablePreStyle": 0
+            },
+            "type": "main-text-position-prop"
+        },
+        {
+            "position": "contentPanel",
+            "type": "gallery-prop"
+        },
+        {
+            "position": "displaySettings",
+            "type": "image-size-prop"
+        },
+        {
+            "position": "displaySettings",
+            "type": "image-margin-prop"
+        },
+        {
+            "position": "displaySettings",
+            "type": "show-list-text-prop"
+        }
+    ],
+    "DsnTemplateSubGroup": "thumbs",
+    "DsnTemplateType": "galleries",
+    "DsnTemplateViewFile": "dynamicgridnew",
+    "DznPicviewGuid": "10",
+    "DznTemplateGuid": "780",
+    "FirstGalleryItemGuid": "1182384yJ7f6DRt",
+    "FontCss": "",
+    "GalleryItems": [
+        {
+            "FileName": "1182384yJ7f6DRt.jpg",
+            "Guid": "1182384yJ7f6DRt",
+            "Height": 1136,
+            "Idx": 0,
+            "ListText": "",
+            "PageGuid": "1182384bZ0fzDc6",
+            "S3LocationId": 3,
+            "SiteId": "1182384",
+            "TextContent": "",
+            "VideoThumbUrl": null,
+            "VideoUrl": null,
+            "Width": 900
+        },
+        {
+            "FileName": "1182384jdZH2vo1.jpg",
+            "Guid": "1182384jdZH2vo1",
+            "Height": 1136,
+            "Idx": 1,
+            "ListText": "",
+            "PageGuid": "1182384bZ0fzDc6",
+            "S3LocationId": 3,
+            "SiteId": "1182384",
+            "TextContent": "",
+            "VideoThumbUrl": null,
+            "VideoUrl": null,
+            "Width": 900
+        },
+        {
+            "FileName": "1182384RKremmYM.jpg",
+            "Guid": "1182384RKremmYM",
+            "Height": 1136,
+            "Idx": 2,
+            "ListText": "",
+            "PageGuid": "1182384bZ0fzDc6",
+            "S3LocationId": 3,
+            "SiteId": "1182384",
+            "TextContent": "",
+            "VideoThumbUrl": null,
+            "VideoUrl": null,
+            "Width": 900
+        },
+        {
+            "FileName": "1182384c2fehwOu.jpg",
+            "Guid": "1182384c2fehwOu",
+            "Height": 1136,
+            "Idx": 3,
+            "ListText": "",
+            "PageGuid": "1182384bZ0fzDc6",
+            "S3LocationId": 3,
+            "SiteId": "1182384",
+            "TextContent": "",
+            "VideoThumbUrl": null,
+            "VideoUrl": null,
+            "Width": 900
+        },
+        {
+            "FileName": "1182384sA6owyJn.jpg",
+            "Guid": "1182384sA6owyJn",
+            "Height": 1136,
+            "Idx": 4,
+            "ListText": "",
+            "PageGuid": "1182384bZ0fzDc6",
+            "S3LocationId": 3,
+            "SiteId": "1182384",
+            "TextContent": "",
+            "VideoThumbUrl": null,
+            "VideoUrl": null,
+            "Width": 900
+        },
+        {
+            "FileName": "1182384R6UKyggA.jpg",
+            "Guid": "1182384R6UKyggA",
+            "Height": 1136,
+            "Idx": 5,
+            "ListText": "",
+            "PageGuid": "1182384bZ0fzDc6",
+            "S3LocationId": 3,
+            "SiteId": "1182384",
+            "TextContent": "",
+            "VideoThumbUrl": null,
+            "VideoUrl": null,
+            "Width": 900
+        },
+        {
+            "FileName": "1182384BIZ2ZFX7.jpg",
+            "Guid": "1182384BIZ2ZFX7",
+            "Height": 1136,
+            "Idx": 6,
+            "ListText": "",
+            "PageGuid": "1182384bZ0fzDc6",
+            "S3LocationId": 3,
+            "SiteId": "1182384",
+            "TextContent": "",
+            "VideoThumbUrl": null,
+            "VideoUrl": null,
+            "Width": 900
+        },
+        {
+            "FileName": "1182384FuxzBNuR.jpg",
+            "Guid": "1182384FuxzBNuR",
+            "Height": 1136,
+            "Idx": 7,
+            "ListText": "",
+            "PageGuid": "1182384bZ0fzDc6",
+            "S3LocationId": 3,
+            "SiteId": "1182384",
+            "TextContent": "",
+            "VideoThumbUrl": null,
+            "VideoUrl": null,
+            "Width": 900
+        }
+    ],
+    "Guid": "1182384bZ0fzDc6",
+    "IsFavorite": 0,
+    "IsPasswordProtected": 0,
+    "IsStartPage": 0,
+    "IsUnPublished": 0,
+    "ListImageMargin": "10px",
+    "ListImageSize": 0,
+    "PageBGThumb": null,
+    "PageNotFound": false,
+    "PageTitle": "GAMES",
+    "Picview": {
+        "BgSize": null,
+        "Fx": "fade",
+        "PauseTiming": 1,
+        "TextPosition": 0,
+        "Timing": 10000
+    },
+    "SeoDescription": "",
+    "Slideshow": {
+        "BgSize": null,
+        "Fx": null,
+        "PauseTiming": 0,
+        "TextPosition": 0,
+        "Timing": 10000
+    },
+    "Uri": "games"
+}

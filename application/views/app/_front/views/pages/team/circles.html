@@ -1,0 +1,37 @@
+<div class="{{base.pageContainerClass}} allSameRatio squareRatio allCircles pb3-image-box-radius pb3-border-image-box-radius pb3-image-box-shadow">
+    <pb-menu></pb-menu>
+    <main>
+		<description position="top" page="page" site="site"></description>
+
+		<div class="gridContainer" common-sameratio ratio="1" figcap="figBottom1">
+			<figure ng-repeat="item in page.ListItems |orderBy: 'Idx' track by item.Guid">
+
+				<div class="imageBox"
+					 link-guid-to-page-section
+					 guid="{{page.Guid}}"
+					 link-page="{{item.LinkedPageGuid}}"
+					 link-section="{{item.LinkedSectionGuid}}"
+					 link-url="{{item.Url}}"
+					 link-target="{{item.Target}}">
+
+					<img ng-if="item.ListThumb.FileName"
+						pb-nice-load
+						ng-src="{{item.ListThumb.FileName | pboxImage:item.ListThumb.S3LocationId : 'h800'}}"
+						class="image"
+						data-height="{{::item.ListThumb.Height}}"
+						data-width="{{::item.ListThumb.Width}}">
+
+				</div>
+
+				<figcaption>
+					<h3 pb-style="base.getH3Styles()" class="header" ng-bind-html="item.Header"></h3>
+					<div pb-style="base.getListTextStyle()" class="subheader" ng-bind-html="item.Subheader"></div>
+				</figcaption>
+			</figure>
+		</div>
+
+		<description position="bottom" page="page" site="site"></description>
+		<pb-footer></pb-footer>
+    </main>
+    <pb-social-media></pb-social-media>
+</div>
