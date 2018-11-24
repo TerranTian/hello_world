@@ -1,0 +1,13 @@
+<nav class="menu">
+
+    <mobile-logo></mobile-logo>
+
+    <ul class="mfirst" pb-style="menu.mobile.getBackgroundColorAndBorder()" style="display: none;">
+        <li class="mobileMenuBoxContainer" mobile-menu-element></li>
+    </ul>
+
+    <div ng-if="menuElements.length" class="menuIcon" ng-click="menu.mobile.toggleLinksStyled()" pb-style="menu.mobile.getBackgroundColorAndBorder()">
+        <three-lines-menu-icon></three-lines-menu-icon>
+    </div>
+
+</nav>
