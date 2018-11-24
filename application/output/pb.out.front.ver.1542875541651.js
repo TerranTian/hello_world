@@ -2678,7 +2678,7 @@ pb.utils.removeAllIntervals = function() {
 		d = c - b;
 	console.warn("Titme: " + d)
 }, pb.utils.getLanguageList = function() {
-	var a = pb.constants.serverCdn + "/application/_img/salesite2/common/flags/",
+	var a = pb.constants.serverCdn + "application/_img/salesite2/common/flags/",
 		b = {
 			0: {
 				code: 0,
@@ -3143,7 +3143,7 @@ pb.utils.removeAllIntervals = function() {
 		f = e + "/" + a.creativeGuid + "/images/";
 	return void 0 == b ? f + a.src : f + b + "-" + a.src
 }, pb.utils.getDummyImageUrl = function(a, b) {
-	return void 0 == b ? pb.constants.getServerCdn() + "/application/_img/dummy/" + a.folder + "/" + a.fileName : pb.constants.getServerCdn() + "/application/_img/dummy/" + a.folder + "/" + b + "-" + a.fileName
+	return void 0 == b ? pb.constants.getServerCdn() + "application/_img/dummy/" + a.folder + "/" + a.fileName : pb.constants.getServerCdn() + "application/_img/dummy/" + a.folder + "/" + b + "-" + a.fileName
 }, pb.utils.closeDropDownAfterAddingContent = function() {
 	var a = $(".sb-active");
 	a.siblings(".sb-content").slideUp(100), a.removeClass("sb-active")
@@ -3304,8 +3304,8 @@ var pbAng = {
 		selectedType: null
 	},
 	constants: {
-		p404: "/application/views/app/_front/views/pages/app404.html",
-		pNoStartPage: "/application/views/app/_front/views/pages/nocontent.html"
+		p404: "application/views/app/_front/views/pages/app404.html",
+		pNoStartPage: "application/views/app/_front/views/pages/nocontent.html"
 	}
 };
 pbAng.registerComponents = function(a, b, c) {
@@ -3517,7 +3517,7 @@ pbAng.registerComponents = function(a, b, c) {
 					view: null,
 					params: {},
 					open: function(a, b, c) {
-						var d = "/application/views/app/_front/views/popups/" + a + ".html";
+						var d = "application/views/app/_front/views/popups/" + a + ".html";
 						$scope.base.popup.show = !0, $scope.base.popup.view = d, $scope.base.popup.data = c, $scope.base.popup.callback = function(a) {
 							a && b && b(a)
 						}, $scope.base.popup.doDigest && pb.utils.digest($scope, !0), setTimeout(function() {
@@ -3697,11 +3697,11 @@ pbAng.registerComponents = function(a, b, c) {
 				}), 
 				$scope.base.isAdmin = isAdmin ? !0 : !1;
 				var a = function(a) {
-					if (1 == a.DsnTemplateIsCustom) return "/application/views/app/_front/views/pages/custompage.html";
-					if (null == a.DsnTemplateViewFile || void 0 == a.DsnTemplateViewFile) return $scope.base.errorMessage = "The template was not found: " + a.DsnTemplateViewFile + " : " + a.DsnTemplateViewGroup, "/application/views/app/_front/views/statics/error.html";
-					if (void 0 == $scope.base.partUrl) return isAdmin && ($scope.admin.showSidePanel = !0, $scope.admin.showSidePanelSection = !1), "/application/views/app/_front/views/pages/" + a.DsnTemplateType + "/" + a.DsnTemplateViewFile + ".html";
+					if (1 == a.DsnTemplateIsCustom) return "application/views/app/_front/views/pages/custompage.html";
+					if (null == a.DsnTemplateViewFile || void 0 == a.DsnTemplateViewFile) return $scope.base.errorMessage = "The template was not found: " + a.DsnTemplateViewFile + " : " + a.DsnTemplateViewGroup, "application/views/app/_front/views/statics/error.html";
+					if (void 0 == $scope.base.partUrl) return isAdmin && ($scope.admin.showSidePanel = !0, $scope.admin.showSidePanelSection = !1), "application/views/app/_front/views/pages/" + a.DsnTemplateType + "/" + a.DsnTemplateViewFile + ".html";
 					var b;
-					return isAdmin && ($scope.admin.showSidePanel = !1), "galleries" == a.DsnTemplateType || "collections" == a.DsnTemplateType ? "/application/views/app/_front/views/pages/galleries/picviews/" + a.DsnPicviewViewFile + ".html" : "products" == a.DsnTemplateType ? ($scope.base.currentProduct = pb.utils.findItemFromArray($scope.page.Products, "Url", $scope.base.partUrl), b = $scope.page.Products.indexOf($scope.base.currentProduct), $scope.showPreviousProduct = !0, $scope.showNextProduct = !0, $scope.nextProduct = $scope.page.Products[b + 1], $scope.previousProduct = $scope.page.Products[b - 1], 0 > b - 1 && ($scope.showPreviousProduct = !1), b + 1 > $scope.page.Products.length - 1 && ($scope.showNextProduct = !1), "/application/views/app/_front/views/pages/products/productviews/" + a.DsnProductViewViewFile + ".html") : "blogs" == a.DsnTemplateType ? ($scope.base.currentPost = pb.utils.findItemFromArray($scope.page.BlogPosts, "Url", $scope.base.partUrl), b = $scope.page.BlogPosts.indexOf($scope.base.currentPost), $scope.showPreviousPost = !0, $scope.showNextPost = !0, $scope.nextPost = $scope.page.BlogPosts[b + 1], $scope.previousPost = $scope.page.BlogPosts[b - 1], pb.utils.fetchBlogPosts($scope, blogPostsService, b, 1, 6), 0 > b - 1 && ($scope.showPreviousPost = !1), b + 1 > $scope.page.BlogPosts.length - 1 && ($scope.showNextPost = !1), void 0 != $scope.base.currentPost ? "/application/views/app/_front/views/pages/blogs/singlepost.html" : pbAng.constants.p404) : void 0
+					return isAdmin && ($scope.admin.showSidePanel = !1), "galleries" == a.DsnTemplateType || "collections" == a.DsnTemplateType ? "application/views/app/_front/views/pages/galleries/picviews/" + a.DsnPicviewViewFile + ".html" : "products" == a.DsnTemplateType ? ($scope.base.currentProduct = pb.utils.findItemFromArray($scope.page.Products, "Url", $scope.base.partUrl), b = $scope.page.Products.indexOf($scope.base.currentProduct), $scope.showPreviousProduct = !0, $scope.showNextProduct = !0, $scope.nextProduct = $scope.page.Products[b + 1], $scope.previousProduct = $scope.page.Products[b - 1], 0 > b - 1 && ($scope.showPreviousProduct = !1), b + 1 > $scope.page.Products.length - 1 && ($scope.showNextProduct = !1), "application/views/app/_front/views/pages/products/productviews/" + a.DsnProductViewViewFile + ".html") : "blogs" == a.DsnTemplateType ? ($scope.base.currentPost = pb.utils.findItemFromArray($scope.page.BlogPosts, "Url", $scope.base.partUrl), b = $scope.page.BlogPosts.indexOf($scope.base.currentPost), $scope.showPreviousPost = !0, $scope.showNextPost = !0, $scope.nextPost = $scope.page.BlogPosts[b + 1], $scope.previousPost = $scope.page.BlogPosts[b - 1], pb.utils.fetchBlogPosts($scope, blogPostsService, b, 1, 6), 0 > b - 1 && ($scope.showPreviousPost = !1), b + 1 > $scope.page.BlogPosts.length - 1 && ($scope.showNextPost = !1), void 0 != $scope.base.currentPost ? "application/views/app/_front/views/pages/blogs/singlepost.html" : pbAng.constants.p404) : void 0
 				}, b = function(a, b) {
 					var c = "";
 					1 == a.IsUnPublished ? c = "unPublished" : 1 == a.IsPasswordProtected && (c = "passwordProtected");
@@ -3778,13 +3778,13 @@ pbAng.registerComponents = function(a, b, c) {
 			var b;
 			a ? (b = angular.module("pboxApp", ["ngRoute", "ngSanitize", "ngTagsInput", "ngBlockContent"]), loadTemplates()) : b = angular.module("pboxApp", ["ngRoute", "ngSanitize", "ngBlockContent"]), b.config(["$routeProvider", "$locationProvider", function(b, c) {
 				b.when("/checkout", {
-					templateUrl: "/application/views/app/_front/views/statics/checkout/checkout.html",
+					templateUrl: "application/views/app/_front/views/statics/checkout/checkout.html",
 					controller: pbAng.front.ctrls.checkoutCtrl
 				}), b.when("/thankyou", {
-					templateUrl: "/application/views/app/_front/views/statics/checkout/thankyou.html",
+					templateUrl: "application/views/app/_front/views/statics/checkout/thankyou.html",
 					controller: pbAng.front.ctrls.checkoutCtrl
 				}), b.when("/unlock", {
-					templateUrl: "/application/views/app/_front/views/statics/unlock.html",
+					templateUrl: "application/views/app/_front/views/statics/unlock.html",
 					controller: pbAng.front.ctrls.unlockCtrl
 				}), b.when("/:pageUrl", {
 					template: '<div ng-include="DsnTemplate"></div>'
@@ -5359,7 +5359,7 @@ pbAng.dirs.misc = {}, pbAng.dirs.misc.ngModelOnblur = function() {
 								var d = pb.utils.searchInArray(a.page.DsnBlogPostTemplate, "Id", a.currentPost.DsnBlogPostTemplateId);
 								b = void 0 != d ? d[0].ViewFile : a.page.DsnBlogPostTemplate[a.currentPost.DsnBlogPostTemplateId].ViewFile
 							}
-							void 0 != b && (c = "/application/views/app/_front/views/pages/blogs/gallery/" + b + ".html", a.singleBlogPost.viewFile = "" != b ? c : "", pb.utils.digest(a, !0))
+							void 0 != b && (c = "application/views/app/_front/views/pages/blogs/gallery/" + b + ".html", a.singleBlogPost.viewFile = "" != b ? c : "", pb.utils.digest(a, !0))
 						};
 						void 0 == a.page.DsnBlogPostTemplate ? pb.adminResources.get.dsnBlogPostTemplates(function(b) {
 							a.page.DsnBlogPostTemplate = b, d()
@@ -6602,19 +6602,19 @@ pbAng.dirs.misc = {}, pbAng.dirs.misc.ngModelOnblur = function() {
 }], pbAng.dirs.socialmedia.socialMediaSite = ["$window", function() {
 	var a = ["$scope", function(a) {
 		a.socialMediaSite = {}, a.socialMediaSite.shareInclude = !1, a.socialMediaSite.followInclude = !1, a.socialMediaSite.pbLikeInclude = !1, a.socialMediaSite.doGoogleCDNBlock = pb.utils.doGoogleCDNBlock(), a.socialMediaSite.nrOfLikes = 0, a.socialMediaSite.clickShare = function() {
-			0 == pb.utils.doGoogleCDNBlock() && (a.socialMediaSite.shareInclude = "/application/views/app/dirs/socialmedia/socialmediashare.html", setTimeout(function() {
+			0 == pb.utils.doGoogleCDNBlock() && (a.socialMediaSite.shareInclude = "application/views/app/dirs/socialmedia/socialmediashare.html", setTimeout(function() {
 				$(".sharePopup").css("background", a.site.BgColor), $(document).on("click.socialMediaSharePopUp", function(b) {
 					b.stopPropagation(), $(b.target).closest("#pb-socialMediaSharePopUp").length < 1 && a.socialMediaSite.closeShare()
 				})
 			}, 1), a.$digest())
 		}, a.socialMediaSite.clickFollow = function() {
-			a.socialMediaSite.followInclude = "/application/views/app/dirs/socialmedia/socialmediafollow.html", setTimeout(function() {
+			a.socialMediaSite.followInclude = "application/views/app/dirs/socialmedia/socialmediafollow.html", setTimeout(function() {
 				$(".sharePopup").css("background", a.site.BgColor), $(".followPopup").css("background", a.site.BgColor), $(".pbLikePopup").css("background", a.site.BgColor), $(document).on("click.socialMediaFollowPopUp", function(b) {
 					b.stopPropagation(), $(b.target).closest("#pb-socialMediaFollowPopUp").length < 1 && a.socialMediaSite.closeFollow()
 				})
 			}, 1), a.$digest(), $(".mfirst").css("-webkit-overflow-scrolling", "auto")
 		}, a.socialMediaSite.clickPbLike = function() {
-			a.socialMediaSite.pbLikeInclude = "/application/views/app/dirs/socialmedia/pblikepopup.html", setTimeout(function() {
+			a.socialMediaSite.pbLikeInclude = "application/views/app/dirs/socialmedia/pblikepopup.html", setTimeout(function() {
 				$(".sharePopup").css("background", a.site.BgColor), $(".followPopup").css("background", a.site.BgColor), $(".pbLikePopup").css("background", a.site.BgColor), $(document).on("click.socialMediaPbLikePopUp", function(b) {
 					b.stopPropagation(), $(b.target).closest("#pb-socialMediaPbLikePopUp").length < 1 && a.socialMediaSite.closePbLike()
 				})
@@ -10071,7 +10071,7 @@ pbAng.dirs.frontViews.blogs = {
 		sum: 0,
 		checkoutData: "",
 		agree: !1,
-		view: "/application/views/app/_front/views/statics/checkout/viewcart.html",
+		view: "application/views/app/_front/views/statics/checkout/viewcart.html",
 		isAdmin: isAdmin,
 		isShopConfigured: function() {
 			return a.site.ShopSettings.ShopName && a.site.ShopSettings.Email && a.site.ShopSettings.Address && a.site.ShopSettings.City && a.site.ShopSettings.CountryCode && a.site.ShopSettings.Currency && a.site.ShopSettings.City ? !1 : "paypal" != a.site.ShopSettings.PaymentMethod || a.site.ShopSettings.PayPalEmail ? !0 : !1
@@ -10465,7 +10465,7 @@ pbAng.dirs.frontViews.blogs = {
 					c["background-image"] = "url(" + g + ")"
 				} else c["background-image"] = "url(" + b.site.BgFilePath + ")";
 				d = b.site.BgImagePosition
-			} else b.site && 1 == b.site.BgUseImage && b.site.StandardBgImage ? (c["background-image"] = "url(" + pb.constants.serverCdn + "/application/_img/app/backgrounds/" + b.site.StandardBgImage + ".jpg)", c["background-repeat"] = "no-repeat", c["background-position"] = "center center", c["background-attachment"] = "fixed", c["background-size"] = "cover", e = !0) : c["background-image"] = "none";
+			} else b.site && 1 == b.site.BgUseImage && b.site.StandardBgImage ? (c["background-image"] = "url(" + pb.constants.serverCdn + "application/_img/app/backgrounds/" + b.site.StandardBgImage + ".jpg)", c["background-repeat"] = "no-repeat", c["background-position"] = "center center", c["background-attachment"] = "fixed", c["background-size"] = "cover", e = !0) : c["background-image"] = "none";
 			return pb.environment.isMobile && $("html").css("height", "100%"), c["background-image"].indexOf("url") > -1 && 0 == e && (1 == d ? (c["background-repeat"] = "no-repeat", c["background-position"] = "center center", c["background-attachment"] = "fixed", c["background-size"] = "cover") : 2 == d ? (c["background-repeat"] = "no-repeat", c["background-position"] = "center center", c["background-attachment"] = "fixed", c["background-size"] = "contain") : 3 == d ? (c["background-repeat"] = "repeat", c["background-position"] = "initial", c["background-attachment"] = "scroll", c["background-size"] = "auto") : 4 == d && (c["background-repeat"] = "no-repeat", c["background-position"] = "center center", c["background-attachment"] = "fixed", c["background-size"] = "auto")), (pb.environment.isMobile || pb.environment.isTablet) && "fixed" == c["background-attachment"] && (c["background-attachment"] = "scroll", $("body").addClass("mobileFixedBg")), c
 		}, b.siteBody.getClasses = function() {
 			return pb.environment.isMobile || pb.environment.width < pb.environment.minWidth ? b.site.DsnMobileLayoutViewFile + " mobileBody" : "webBody layout-" + b.site.DsnLayoutType + " menu-" + b.site.DsnLayoutViewFile + " width" + b.site.SiteWidth
@@ -10721,7 +10721,7 @@ pbAng.dirs.frontViews.blogs = {
 }], pbAng.dirs.menuDir = ["$window", function(a) {
 	var b = ["$scope", function(b) {
 		b.menu = {}, b.menu.getViewFile = function() {
-			return pb.environment.isMobile || pb.environment.width < pb.environment.minWidth ? "/application/views/app/_front/views/menus/mobile/" + b.site.DsnMobileLayoutViewFile + ".html" : "/application/views/app/_front/views/menus/" + b.site.DsnLayoutType + "/" + b.site.DsnLayoutViewFile + ".html"
+			return pb.environment.isMobile || pb.environment.width < pb.environment.minWidth ? "application/views/app/_front/views/menus/mobile/" + b.site.DsnMobileLayoutViewFile + ".html" : "application/views/app/_front/views/menus/" + b.site.DsnLayoutType + "/" + b.site.DsnLayoutViewFile + ".html"
 		}, b.menu.getMobileMenuIconColor = function() {
 			var a = {};
 			return a.color = b.site.MobileMenuIconColor, a
@@ -12066,7 +12066,7 @@ function() {
 				}();
 			return {
 				restrict: "E",
-				templateUrl: "/application/views/app/modules/blockcontent/editor.html",
+				templateUrl: "application/views/app/modules/blockcontent/editor.html",
 				replace: !0,
 				controller: h,
 				scope: {
@@ -12533,7 +12533,7 @@ function() {
 							}
 						} else b.BgFilePath && (d = b.BgFilePath);
 						"text" == b.Type ? s(b.Idx, c, b.BgColor, d) : "gallery" == b.Type ? t(b.Idx, c, b.BgColor, d) : "collection" == b.Type && u(b.Idx, c, b.BgColor, d)
-					}, 100), "/application/views/app/dirs/onepager/" + b.Type + "/" + b.ViewFile + ".html"
+					}, 100), "application/views/app/dirs/onepager/" + b.Type + "/" + b.ViewFile + ".html"
 				}
 			}
 		}];
@@ -12560,7 +12560,7 @@ function() {
 				return a(b, c)
 			},
 			getViewFile: function(a) {
-				return a.Type && a.ViewFile ? "/application/views/app/_front/views/pages/onepageradvanced/" + a.Type + "/" + a.ViewFile + ".html" : ""
+				return a.Type && a.ViewFile ? "application/views/app/_front/views/pages/onepageradvanced/" + a.Type + "/" + a.ViewFile + ".html" : ""
 			},
 			isParallax: !1,
 			getSectionWidth: function(a) {
@@ -12580,7 +12580,7 @@ function() {
 		restrict: "E",
 		controller: b,
 		replace: !0,
-		templateUrl: "/application/views/app/dirs/onepageradvanced/onepageradvanced.html",
+		templateUrl: "application/views/app/dirs/onepageradvanced/onepageradvanced.html",
 		link: function(a, b, c) {
 			a.pbOnePagerAdvanced.isParallax = void 0 != c.onepagerType && "parallax" == c.onepagerType ? !0 : !1
 		}
@@ -12983,7 +12983,7 @@ function() {
 		restrict: "E",
 		controller: a,
 		replace: !0,
-		templateUrl: "/application/views/app/dirs/formbuilder-section/formbuilder-section.html"
+		templateUrl: "application/views/app/dirs/formbuilder-section/formbuilder-section.html"
 	}
 }], pbAng.dirs.map = [function() {
 	var a = function(a, b) {
@@ -15106,7 +15106,7 @@ pbAng.dirs.sectionViews.galleries = {
 		restrict: "E",
 		link: a,
 		replace: !0,
-		templateUrl: "/application/views/app/dirs/carousel/carousel.html"
+		templateUrl: "application/views/app/dirs/carousel/carousel.html"
 	}
 }], pbAng.dirs.linkHeader = [function() {
 	return {
@@ -15163,7 +15163,7 @@ pbAng.dirs.sectionViews.galleries = {
 			}
 		}],
 		replace: !0,
-		templateUrl: "/application/views/app/dirs/link-header/link-header.html"
+		templateUrl: "application/views/app/dirs/link-header/link-header.html"
 	}
 }], pbAng.dirs.buttons = [function() {
 	return {
@@ -15191,7 +15191,7 @@ pbAng.dirs.sectionViews.galleries = {
 			}
 		}],
 		replace: !0,
-		templateUrl: "/application/views/app/dirs/buttons/buttons.html"
+		templateUrl: "application/views/app/dirs/buttons/buttons.html"
 	}
 }], pbAng.dirs.links = [function() {
 	return {
@@ -15223,7 +15223,7 @@ pbAng.dirs.sectionViews.galleries = {
 			}
 		}],
 		replace: !0,
-		templateUrl: "/application/views/app/dirs/links/links.html"
+		templateUrl: "application/views/app/dirs/links/links.html"
 	}
 }], pbAng.dirs.linksPage = [function() {
 	return {
@@ -15251,7 +15251,7 @@ pbAng.dirs.sectionViews.galleries = {
 			}
 		}],
 		replace: !0,
-		templateUrl: "/application/views/app/dirs/links-page/links-page.html"
+		templateUrl: "application/views/app/dirs/links-page/links-page.html"
 	}
 }], pbAng.dirs.pbGallerySection = [function() {
 	var a = '<div id="gallery_container_{{::section.Guid}}" class="gallery gallery-container clearfix"><figure id="figure_{{::item.Guid}}" ng-repeat="item in section.GalleryItems | orderBy:\'Idx\' track by item.Guid " ng-click="pbGallerySection.openItem(item)"><div id="imageBox_{{::item.Guid}}" class="imageBox"><img id="img_{{::item.Guid}}" gallery-thumb pb-nice-load ng-class="{noPicview : page.DznPicviewGuid == 1}" data-filename="{{::item.FileName}}" ng-src="{{::item.src}}" pb-gallery-err-img-src item="::item" s3id={{::item.S3LocationId}} size="{{::pbGallerySection.thumbSize}}" class="image"alt="{{::base.getImgAltOrPageTitle(item.ListText)}}" data-height="{{::item.Height}}" data-width="{{::item.Width}}"/></div><figcaption class="galleryFigCaption" ng-if="section.DoShowGalleryItemListText != 0 && item.ListText" bind-unsafe-html="item.ListText"></figcaption></figure></div>',
@@ -15352,7 +15352,7 @@ pbAng.dirs.sectionViews.galleries = {
 		},
 		controller: a,
 		replace: !0,
-		templateUrl: "/application/views/app/dirs/blog-section/blog-section.html"
+		templateUrl: "application/views/app/dirs/blog-section/blog-section.html"
 	}
 }], pbAng.dirs.menuElementSection = ["$location", "$route", function(a) {
 	var b = '<li id="menuList_{{section.Guid}}" class="top" ng-style="menuElementSection.geHiddenHierarchyBoxColor()" ng-repeat="element in section.SectionMenuElements |orderBy: \'Idx\' track by element.Guid"><a id="topmenu{{$index}}{{element.Guid}}" class="menuLink_{{section.Guid}}" target="{{element.Target}}" link-target="{{element.Target}}" ng-style="menuElementSection.getStyles(element,\'topmenu\', $index)" link-guid-to-page-section guid="{{section.Guid}}" link-page="{{element.PageGuid}}" link-section="{{element.LinkSectionGuid}}" link-url="{{element.Url}}" ng-bind-html="element.Title"></a><ul class="second" ng-style="menuElementSection.geHiddenHierarchyBg(section.BgColor,section.MenuSettings.FontColor)" ng-if="element.Children && element.Children.length > 0"><li class="middle" ng-repeat="child in element.Children track by child.Guid"><a id="middlemenu{{$index}}{{child.Guid}}" class="menuLink_{{section.Guid}}" target="{{child.Target}}" link-target="{{child.Target}}" ng-style="menuElementSection.getStyles(child, \'middlemmenu\', $index)" link-guid-to-page-section guid="{{section.Guid}}" link-page="{{child.PageGuid}}" link-section="{{child.LinkSectionGuid}}" link-url="{{child.Url}}" ng-bind-html="child.Title"></a><ul class="third" ng-if="child.Children && child.Children.length > 0"><li class="bottom" ng-repeat="gChild in child.Children track by gChild.Guid"><a id="bottommenu{{$index}}{{gChild.Guid}}" class="menuLink_{{section.Guid}}" target="{{gChild.Target}}" link-target="{{gChild.Target}}" ng-style="menuElementSection.getStyles(gChild, \'bottommenu\', $index)" link-guid-to-page-section guid="{{section.Guid}}" link-page="{{gChild.PageGuid}}" link-section="{{gChild.LinkSectionGuid}}" link-url="{{gChild.Url}}" ng-bind-html="gChild.Title"></a></li></ul></li></ul></li>',
